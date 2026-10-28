@@ -1,0 +1,2 @@
+{"ts":"2026-10-28T09:40:00Z","service":"payment-service","version":"2.14.0","change":"Refactor gateway client retry wrapper"}
+{"ts":"2026-10-28T09:55:00Z","service":"notification-service","version":"1.8.3","change":"Update receipt email template"}

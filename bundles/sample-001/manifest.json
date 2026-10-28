@@ -1,0 +1,7 @@
+{
+  "incidentId": "sample-001",
+  "alert": "LedgerReconciliationMismatch: ledger totals exceed captured order totals",
+  "windowStart": "2026-10-28T10:00:00Z",
+  "windowEnd": "2026-10-28T10:15:00Z",
+  "services": ["order-service", "payment-service", "ledger-service", "notification-service"]
+}

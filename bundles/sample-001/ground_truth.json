@@ -1,0 +1,6 @@
+{
+  "faultType": "IDEMPOTENCY_KEY_DROPPED",
+  "tier": "T3_DISTANT",
+  "service": "payment-service",
+  "summary": "Retry wrapper regenerates the idempotency key on each attempt, so the ledger cannot dedupe retried captures and customers are charged twice."
+}

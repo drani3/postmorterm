@@ -1,0 +1,10 @@
+{"ts":"2026-10-28T10:01:02Z","service":"order-service","level":"INFO","traceId":"t-101","message":"Order placed orderId=o-101 amount=40.00 USD"}
+{"ts":"2026-10-28T10:01:03Z","service":"payment-service","level":"WARN","traceId":"t-101","message":"Gateway timeout for orderId=o-101, retrying capture"}
+{"ts":"2026-10-28T10:01:03Z","service":"payment-service","level":"INFO","traceId":"t-101","message":"Payment captured paymentId=p-1 orderId=o-101"}
+{"ts":"2026-10-28T10:01:04Z","service":"payment-service","level":"INFO","traceId":"t-101","message":"Payment captured paymentId=p-2 orderId=o-101"}
+{"ts":"2026-10-28T10:01:04Z","service":"ledger-service","level":"INFO","traceId":"t-101","message":"Ledger entry posted entryId=e-1 orderId=o-101 amount=40.00 USD"}
+{"ts":"2026-10-28T10:01:05Z","service":"ledger-service","level":"INFO","traceId":"t-101","message":"Ledger entry posted entryId=e-2 orderId=o-101 amount=40.00 USD"}
+{"ts":"2026-10-28T10:01:06Z","service":"notification-service","level":"INFO","traceId":"t-101","message":"Receipt sent orderId=o-101 amount=40.00 USD"}
+{"ts":"2026-10-28T10:01:06Z","service":"notification-service","level":"INFO","traceId":"t-101","message":"Receipt sent orderId=o-101 amount=40.00 USD"}
+{"ts":"2026-10-28T10:10:00Z","service":"ledger-service","level":"ERROR","traceId":null,"message":"Reconciliation mismatch orderId=o-101 ledger=80.00 captured=40.00"}
+{"ts":"2026-10-28T10:10:00Z","service":"ledger-service","level":"ERROR","traceId":null,"message":"Reconciliation run failed: 1 order(s) out of balance"}

@@ -1,0 +1,5 @@
+{"traceId":"t-101","spanId":"s-1","parentSpanId":null,"service":"order-service","operation":"POST /orders","start":"2026-10-28T10:01:02Z","durationMs":12,"status":"OK"}
+{"traceId":"t-101","spanId":"s-2","parentSpanId":"s-1","service":"payment-service","operation":"capture","start":"2026-10-28T10:01:03Z","durationMs":1010,"status":"ERROR"}
+{"traceId":"t-101","spanId":"s-3","parentSpanId":"s-1","service":"payment-service","operation":"capture","start":"2026-10-28T10:01:04Z","durationMs":95,"status":"OK"}
+{"traceId":"t-101","spanId":"s-4","parentSpanId":"s-2","service":"ledger-service","operation":"post","start":"2026-10-28T10:01:04Z","durationMs":8,"status":"OK"}
+{"traceId":"t-101","spanId":"s-5","parentSpanId":"s-3","service":"ledger-service","operation":"post","start":"2026-10-28T10:01:05Z","durationMs":7,"status":"OK"}

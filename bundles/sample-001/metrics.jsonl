@@ -1,0 +1,4 @@
+{"ts":"2026-10-28T10:05:00Z","service":"payment-service","name":"payments_captured_total","value":2,"labels":{}}
+{"ts":"2026-10-28T10:05:00Z","service":"ledger-service","name":"ledger_entries_total","value":2,"labels":{}}
+{"ts":"2026-10-28T10:05:00Z","service":"ledger-service","name":"ledger_duplicates_ignored_total","value":0,"labels":{}}
+{"ts":"2026-10-28T10:05:00Z","service":"order-service","name":"orders_placed_total","value":1,"labels":{}}
